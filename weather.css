@@ -1,0 +1,131 @@
+body{
+  margin: 0px;
+  padding: 0px;
+
+}
+.card{
+background: linear-gradient(135deg,#00feba,#5b548a);
+  /* border: 2px solid red; */
+  /* width: 90%; */
+  max-width: 474px;
+  color: white;
+  margin: 100px auto;
+  border-radius: 20px;
+  padding: 31px 0px;
+  text-align: center;
+
+
+}
+.first{
+
+
+ width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card .first input{
+width: 332px;
+  border: 0;
+  background: white;
+  color: grey;
+  height: 44px;
+  border-radius: 30px;
+  font-size: 18px;
+  position: relative;
+  left: 33px;
+
+
+/* border: 2px solid white;
+  border-radius: 50px;
+  width: 270px;
+  height: 34px;
+  text-align: left;
+  position: relative;
+  left: 15px; */ 
+/* background:#ebfffc; */
+
+}
+.card .first button{
+border-radius: 50%;
+  border: 0;
+  background: #ebfffc;
+  width: 49px;
+  height: 49px;
+  cursor: pointer;
+  position: relative;
+  left: 11px;
+}
+.first button img{
+width:16px;
+}
+
+.goodmorning{
+width:170px;
+margin-top:30px;
+}
+.second h1{
+font-size:80px;
+font-weight:500;
+}
+.second h2{
+font-size:45px;
+font-weight:400;
+margin-top:-10px;
+}
+
+.goodmorning{
+width:170px;
+margin-top:30px;
+margin-bottom: -43px;
+}
+.second h1{
+font-size:80px;
+font-weight:500;
+}
+.second h2{
+font-size:45px;
+font-weight:400;
+margin-top:-51px;
+}
+.details{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:0 20px;
+margin-top: 50px;
+}
+.col{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.col img{
+/* width: 28px;
+  position: relative;
+  bottom: 14px; */
+width: 40px;
+margin-right: 10px;
+
+}
+.humidity , .windspeed{
+font-size: 28px;
+  margin-top: 14px;
+  margin-bottom: -11px;
+}
+.second{
+display: none;
+}
+.error{
+   margin-top: 9px;
+  font-size: 19px;
+  margin-left: -252px;
+  display: none;
+
+
+}
+.goodnight{
+width: 446px;
+  display: none;
+  margin: 14px 0px -54px 13px;
+}
