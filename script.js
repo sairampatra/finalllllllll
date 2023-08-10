@@ -78,7 +78,7 @@ card.style.background='#e45e76'
 
 button.addEventListener('click',()=>{
 
-if (searchbox.value == 'sanskruti'||searchbox.value == 'Sanskruti'||searchbox.value == 'Sanskruti '||searchbox.value == 'SANSKRUTI'||searchbox.value == 'popcorn'||searchbox.value == 'butki'||searchbox.value == 'guddu){
+if (searchbox.value == 'sanskruti'||searchbox.value == 'Sanskruti'){
  anubhav()
 }
   else{
